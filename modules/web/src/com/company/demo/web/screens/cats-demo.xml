@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://caption"
+        class="com.company.demo.web.screens.CatsDemo"
+        messagesPack="com.company.demo.web.screens">
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="spacer">
+        <label value="Show Cats!"
+               stylename="h1"/>
+        <label value="Completely empty main window available for anonymous users"
+               stylename="h1"/>
+
+        <label id="spacer"/>
+    </layout>
+</window>
